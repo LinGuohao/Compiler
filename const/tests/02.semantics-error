@@ -1,0 +1,10 @@
+program ures
+    const integer a = 12;
+    integer b;
+    const boolean c = true;
+begin
+    a := 13;
+    write(a);
+    write(b);
+    write(c);
+end

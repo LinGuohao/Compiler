@@ -1,0 +1,120 @@
+global main
+extern read_unsigned, write_unsigned
+extern read_boolean, write_boolean
+segment .bss
+label0: resd 1
+label1: resd 1
+label10: resd 1
+label11: resd 1
+label12: resd 1
+label13: resd 1
+label14: resd 1
+label15: resd 1
+label16: resd 1
+label17: resd 1
+label18: resd 1
+label19: resd 1
+label2: resd 1
+label20: resd 1
+label21: resd 1
+label22: resd 1
+label23: resd 1
+label24: resd 1
+label25: resd 1
+label26: resd 1
+label27: resd 1
+label28: resd 1
+label29: resd 1
+label3: resd 1
+label30: resd 1
+label31: resd 1
+label32: resd 1
+label33: resd 1
+label34: resd 1
+label35: resd 1
+label36: resd 1
+label37: resd 1
+label38: resd 1
+label39: resd 1
+label4: resd 1
+label40: resd 1
+label41: resd 1
+label42: resd 1
+label43: resd 1
+label44: resd 1
+label45: resd 1
+label46: resd 1
+label47: resd 1
+label48: resd 1
+label49: resd 1
+label5: resd 1
+label50: resd 1
+label51: resd 1
+label52: resd 1
+label53: resd 1
+label54: resd 1
+label55: resd 1
+label56: resd 1
+label57: resd 1
+label58: resd 1
+label59: resd 1
+label6: resd 1
+label60: resd 1
+label61: resd 1
+label62: resd 1
+label63: resd 1
+label64: resd 1
+label65: resd 1
+label66: resd 1
+label67: resd 1
+label68: resd 1
+label69: resd 1
+label7: resd 1
+label70: resd 1
+label71: resd 1
+label72: resd 1
+label73: resd 1
+label74: resd 1
+label75: resd 1
+label76: resd 1
+label77: resd 1
+label78: resd 1
+label79: resd 1
+label8: resd 1
+label80: resd 1
+label81: resd 1
+label82: resd 1
+label83: resd 1
+label84: resd 1
+label85: resd 1
+label86: resd 1
+label87: resd 1
+label88: resd 1
+label89: resd 1
+label9: resd 1
+label90: resd 1
+label91: resd 1
+label92: resd 1
+label93: resd 1
+label94: resd 1
+label95: resd 1
+label96: resd 1
+label97: resd 1
+label98: resd 1
+label99: resd 1
+label100: resd 1
+
+segment .text
+main:
+mov eax, 37
+mov [label13] ,eax
+mov eax, 102
+mov [label81] ,eax
+mov eax, [label0]
+push eax
+call write_unsigned
+add esp,4
+call read_unsigned
+mov [label23], eax
+
+ret

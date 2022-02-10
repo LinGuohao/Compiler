@@ -1,0 +1,10 @@
+program ures
+    integer a;
+    boolean b;
+begin
+    write(a ?? 12);
+    a := a ?? 12;
+    write(a ?? 100);
+    b := true;
+    write(b ?? false);
+end
